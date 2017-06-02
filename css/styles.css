@@ -1,7 +1,9 @@
 body {
-  background-image: url("img_code.jpg");
+  background-image: url("img/code.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .jumbotron {
-  background-color: rgba(167,202,239,0.7); 
+  background-color: rgba(167,202,239,0.7);
 }
