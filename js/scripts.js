@@ -17,7 +17,15 @@ function add (q1, q2, q3, q4, q5, q6, q7, q8) {
 
 
   if (q1 >= 1) {
+    $("#php").show();
+  }else if () {
+    $("#ruby").show();
+  }else if () {
+    $("#c-sharp").show();
+  }else () {
     $("#java").show();
+  }
+
 
 
 });
