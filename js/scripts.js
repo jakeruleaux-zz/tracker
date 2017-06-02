@@ -1,7 +1,4 @@
 $(document).ready(function() {
-//  $("#form-one").submit(function() {
-
-
   var q1 = parseInt($("#question1").val());
   var q2 = parseInt($("#question2").val());
   var q3 = parseInt($("#question3").val());
@@ -10,23 +7,19 @@ $(document).ready(function() {
   var q6 = parseInt($("#question6").val());
   var q7 = parseInt($("#question7").val());
   var q8 = parseInt($("#question8").val());
-
-function add (q1, q2, q3, q4, q5, q6, q7, q8) {
-  return q1 + q2 + q3+ q4 + q5 + q6 + q7 + q8
+  var total = q1 + q2 + q3+ q4 + q5 + q6 + q7 + q8;
 }
 
-
-  if (q1 >= 1) {
+  if (total >= 8) {
     $("#php").show();
-  }else if () {
+  } else if (total >= 16) {
     $("#ruby").show();
-  }else if () {
+  } else if (total >= 24) {
     $("#c-sharp").show();
-  }else () {
+  } else (total >= 32) {
     $("#java").show();
   }
-
-
+$("#form-one").submit(function() {
 
 });
 
