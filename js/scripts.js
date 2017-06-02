@@ -1,18 +1,19 @@
 $(document).ready(function() {
   $("#form-one").submit(function() {
-
-$(function() {
-  $("#form-one option[value="${form-oneValue}"]").prop("selected", true);
-});
-
-    if (total >= 27) {
-      $("#java").show();
-    } else if (total >=22 ) {
-      $("#c-sharp").show();
-    } else if (total >= 13) {
-      $("#ruby").show();
-    } else {
-      $("#php").show();
-    }
+  });
+console.log(selected);
+  (function() {
+    var $total = $('#usertotal');
+    $('select').change(function () {
+        var tot = 0;
+        $('select > option:selected').each(function () {
+            var selects = $(this).attr('value');
+            if (selects) {
+                tot += Number(selects);
+            }
+  });
+  if (total === 8) {
+    $("#php").show();
+  }
 
 });
