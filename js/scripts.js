@@ -1,19 +1,38 @@
 $(document).ready(function() {
   $("#form-one").submit(function() {
   });
-console.log(selected);
-  (function() {
-    var $total = $('#usertotal');
-    $('select').change(function () {
-        var tot = 0;
-        $('select > option:selected').each(function () {
-            var selects = $(this).attr('value');
-            if (selects) {
-                tot += Number(selects);
-            }
-  });
-  if (total === 8) {
-    $("#php").show();
-  }
+
+  $("#question1").val();
+  $("#question2").val();
+  $("#question3").val();
+  $("#question4").val();
+  $("#question5").val();
+  $("#question6").val();
+  $("#question7").val();
+  $("#question8").val();
+
+
+
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//$(".form-control option:selected").val();
