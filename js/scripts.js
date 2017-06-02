@@ -8,20 +8,19 @@ $(document).ready(function() {
   var q7 = parseInt($("#question7").val());
   var q8 = parseInt($("#question8").val());
   var total = q1 + q2 + q3+ q4 + q5 + q6 + q7 + q8;
-}
 
-  if (total >= 8) {
+  if (total <= 9) {
     $("#php").show();
-  } else if (total >= 16) {
+  } else if (total <= 16) {
     $("#ruby").show();
-  } else if (total >= 24) {
+  } else if (total <= 24) {
     $("#c-sharp").show();
-  } else (total >= 32) {
+  } else (total >= 32)
     $("#java").show();
-  }
+  });
 $("#form-one").submit(function() {
+ });
 
-});
 
 
 
