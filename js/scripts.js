@@ -9,14 +9,15 @@ $(document).ready(function() {
     var question7 = parseInt($("#question7"))val();
     var question8 = parseInt($("#question8"))val();
 
-    if (total >= ) {
+
+    if (total >= 27) {
       $("#").show();
-    } else if (total ); {
+    } else if (total >=22 ); {
       $("#").show(); {
-    }  else if (total); {
+    }  else if (total >= 13); {
       $("#").show(); {
     } else {
       $("#").show();
     }
-      
+
 });

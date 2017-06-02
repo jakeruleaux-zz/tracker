@@ -7,3 +7,20 @@ body {
 .jumbotron {
   background-color: rgba(167,202,239,0.7);
 }
+
+#php {
+  display: none;
+}
+
+#java {
+  display: none;
+}
+
+#ruby {
+  display: none;
+}
+
+#c-sharp {
+  display: none;
+}
+  
