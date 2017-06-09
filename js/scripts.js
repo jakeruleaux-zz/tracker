@@ -21,27 +21,3 @@ $(document).ready(function() {
       $("#java").show();
   });
  });
-
-
-
-
-
-
-
-
-
-
-//  $('select').change(function(){
-//      var sum = 0;
-//      $('select :selected').each(function() {
-//          sum += Number($(this).val());
-//      });
-//       $("#sum").html(sum);
-
-
-
-
-
-
-
-//$(".form-control option:selected").val();
