@@ -10,7 +10,7 @@ $(document).ready(function() {
       var q7 = parseInt($("#question7").val());
       var q8 = parseInt($("#question8").val());
       var total = q1 + q2 + q3+ q4 + q5 + q6 + q7 + q8;
-
+console.log(total);
       if ((total === 8) && (total <=12 )) {
         $("#php").show();
       } else if ((total === 13) && (total <= 18)) {
